@@ -1,0 +1,127 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding-left:30px;
+    padding-right:30px;
+    background-image: url('./images/bg-pattern-top-mobile.svg');
+    font-family: 'Spartan', sans-serif;
+}
+
+section.top{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.productDescription{      
+    margin-bottom: 30px;    
+}
+
+.top .productDescription h1{
+    color:hsl(300, 43%, 22%);
+    font-size:30px;
+    margin-bottom: 20px;    
+    text-align:center;
+
+}
+
+.top .productDescription p{
+    text-align: center;    
+}
+
+.reviewStars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    width: 315px;
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 15px; 
+    border-radius: 5px;
+}
+
+.stars{
+    height:16px;
+    width:85px;
+    background-image: url("./images/icon-star.svg");    
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.reviewStars>p{
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+section.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url("./images/bg-pattern-bottom-mobile.svg");
+    margin-bottom:50px;
+}
+
+.testimonialDiv{
+    height: 300px;
+    width: 315px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius:10px;
+    margin-bottom:20px;
+    padding-left: 30px;
+    color: hsl(0, 0%, 100%);    
+}
+
+.testmonialIdentification{
+    display:flex;
+    flex-direction:row;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.buyerPhoto{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-right: 20px; 
+}
+
+.buyerName{
+    font-weight: 700;
+    padding-bottom:5px;    
+}
+
+.verifiedBuyer{
+    color: hsl(333, 80%, 67%);
+}
+
+#coltonSmithPhoto{
+    background-image: url("./images/image-colton.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+#ireneRobertsPhoto{
+    background-image: url("./images/image-irene.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+#anneWallacePhoto{
+    background-image: url("./images/image-anne.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.testimonialParagraph{
+    line-height: 25px;
+    width: 90%;
+}
