@@ -9,7 +9,6 @@ body{
     flex-direction: column;
     padding-left:30px;
     padding-right:30px;
-    background-image: url('./images/bg-pattern-top-mobile.svg');
     font-family: 'Spartan', sans-serif;
 }
 
@@ -19,6 +18,7 @@ section.top{
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
+    background-image: url('./images/bg-pattern-top-mobile.svg');
     
 }
 
@@ -35,7 +35,10 @@ section.top{
 }
 
 .top .productDescription p{
-    text-align: center;    
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+    line-height:25px;
+    font-weight: 500;    
 }
 
 .reviewStars{
@@ -67,7 +70,7 @@ section.bottom{
     flex-direction: column;
     align-items: center;
     background-image:url("./images/bg-pattern-bottom-mobile.svg");
-    margin-bottom:50px;
+    margin-bottom:50px;   
 }
 
 .testimonialDiv{
@@ -124,4 +127,105 @@ section.bottom{
 .testimonialParagraph{
     line-height: 25px;
     width: 90%;
+}
+
+@media (min-width: 1000px){
+
+    section.top{
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top:0;        
+        padding-top:80px;
+        padding-left:80px;
+        padding-right:80px;
+        background-image: url('./images/bg-pattern-top-desktop.svg');
+    }
+
+    .productDescription{        
+        margin-right: 40px;
+        text-align:left;
+        width:50%;
+    }
+
+    .top .productDescription h1{   
+    text-align:left;
+    font-size:48px;
+    width: 100%;
+
+}
+
+    .top .productDescription p{
+    text-align: left;
+    width: 100%;    
+    }
+
+    
+    .reviews{
+        padding-left:40px;
+        height: 300px;
+        width:60%;      
+        display:flex;
+        flex-direction:column;        
+    }
+
+    .reviewStars{
+        flex-direction:row;
+        align-items:center;
+        width: 400px;
+        padding-left:20px;        
+    }
+    
+    .reviewStars>p{
+    margin-left: 25px;
+    }
+
+    .stars{
+       
+        margin:0; 
+    }  
+
+    .review1{
+        display:flex;
+        justify-content: flex-start;
+    }
+
+    .review2{
+        display:flex;
+        justify-content: center;   
+    }
+
+    .review3{
+        display:flex;
+        justify-content: flex-end;   
+    }
+
+    section.bottom{
+        flex-direction:row;
+        padding-left:80px;
+        padding-right:80px;
+        justify-content: space-between;
+        background-image: url("./images/bg-pattern-bottom-desktop.svg");
+        height:400px;
+    }
+
+    .container{
+        width:32%;
+        height:350px;
+        
+    }
+
+    .container1{
+        display:flex;
+        align-items: flex-start;
+    }
+
+    .container2{
+        display:flex;
+        align-items: center;
+    }
+
+    .container3{
+        display:flex;
+        align-items: flex-end;
+    }
 }
