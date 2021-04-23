@@ -2,6 +2,11 @@
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 
+## Live Link
+The result I achievied can be seen in the link below:
+
+https://fabbioamaral.github.io/socialProofSectionMaster/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
